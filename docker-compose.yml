@@ -1,0 +1,6 @@
+﻿services:
+  backend:
+    image: tictactoe.webapi
+    build:
+      context: .
+      dockerfile: src/TicTacToe.WebAPI/Dockerfile
