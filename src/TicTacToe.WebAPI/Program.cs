@@ -17,4 +17,7 @@ app.MapControllers();
 app.Run();
 
 // For integration testing purposes
-public abstract partial class Program;
+namespace TicTacToe.WebAPI
+{
+    public abstract partial class Program;
+}
